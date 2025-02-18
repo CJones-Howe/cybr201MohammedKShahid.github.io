@@ -1,5 +1,8 @@
 body {
 	background-color: skyblue;
 	color:blue;
-	font-size: 25px;
+	font-size: 125%;
 }	
+h2{
+	font-size: 200%;
+}
