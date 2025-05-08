@@ -1,0 +1,44 @@
+body {
+	background-color: skyblue;
+	color:blue;
+	font-size: 125%;
+	text-align: center;	
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.nav-links li {
+	padding: 15px;
+}
+
+.nav-links a {
+	color: green;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-links a:hover {
+	color: yellow;
+	font-size: 20px;
+}
+
+.content {
+	display: flex;
+	padding: 20px;
+	background-color: blue;
+	width: 800px;
+}
+
+@media (max-width: 760px) {
+	.nav-links {
+		flex-direction: column;
+	}
+	.content {
+		flex-direction: column;
+	}
+
+}

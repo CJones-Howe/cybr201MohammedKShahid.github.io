@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plastic Pollution In The Ocean</title>
+	<link rel="stylesheet" href="index7.css">
+</head>
+<body>
+	<h2>Plastic in the Ocean harms Marine Life</h2>
+<nav class="topnav">
+	<ul class="nav-links">
+		<li><a href="index5.html"> Home </a></li>
+		<li><a href="index6.html"> About </a></li>
+		<li><a href="index7.html"> Additional Information </a></li>
+	</ul>
+</nav>
+
+<p>Here are some fun facts about pollution in the ocean</p>
+<ul class="fun-facts">
+		<li>Scientists have estimated that there are around 171 trillion pieces of plastic pollution in the ocean.</li>
+		<li>Plastic takes around 500 to 1000 years to degrade. After that, it still becomes microplastics, without actually fully degrading.</li>
+		<li>It is estimated that by the year 2050 there will be more plastic in the ocean than there our fish on the planet.</li>
+		<li>Plastic microbeads, that are in face washes are small enough to be eaten by marine wildlife.</li>
+		<li>The Great Pacific Garbage Patch is a collection of trash debris in the pacific ocean, and it is estimated to be twice the size of Texas.</li>
+</ul>	
+<p>Quiz Question!</p>
+<p>Is the Great Pacific Garbage Patch larger than the state of Texas?</p>
+		<button onclick="correctAnswer()">True</button>
+		<button onclick="incorrectAnswer()">False</button>
+<p id="output1"> </p>
+
+<script>
+	function correctAnswer() {
+		document.getElementById("output1").innerHTML="Correct!";
+		document.getElementById("output1").style.color = "green";
+	}
+	function incorrectAnswer() {
+		document.getElementById("output1").innerHTML="Incorrect!";
+		document.getElementById("output1").style.color = "red";
+	}
+</script>
+
+</body>
+</html>
